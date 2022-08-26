@@ -1,18 +1,12 @@
 import "./ResultBox.css";
 
-function Link_list({ sortResult, longResult }) {
+function LinkList({ sortResult, longResult }) {
   // const [inertialData, setNewData] = useState([data]);
   // setNewData(...inertialData, {
   //   input: { sortResult },
   //   output: { longResult },
   // });
-  const data = [
-    {
-      input: "http://localhost",
-      output: "short cut",
-      key: 1,
-    },
-  ];
+
   const copyData = function () {
     console.log("clicked");
     navigator.clipboard.writeText(sortResult);
@@ -29,4 +23,4 @@ function Link_list({ sortResult, longResult }) {
     </div>
   );
 }
-export default Link_list;
+export default LinkList;

@@ -2,7 +2,7 @@ import "./Body_layout.css";
 import SearchUrl from "./SearchUrl";
 import ResultBox from "./ResultBox";
 import { useState } from "react";
-function Body_layout() {
+function BodyLayout() {
   const [result, setResult] = useState();
   const [userInput, setUserInputTo] = useState("");
   return (
@@ -159,4 +159,4 @@ function Body_layout() {
     </div>
   );
 }
-export default Body_layout;
+export default BodyLayout;
